@@ -1,11 +1,14 @@
 import React, { Component } from "react";
+import { Button } from "antd-mobile";
+
 class Home extends Component {
-  constructor(props) {
-    super(props);
-    this.state = {};
-  }
   render() {
-    return <div>Home页面</div>;
+    return (
+      <div>
+        Home页面
+        <Button type="primary">登录</Button>
+      </div>
+    );
   }
 }
 
