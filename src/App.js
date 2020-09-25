@@ -14,7 +14,7 @@ const App = () => {
             <Link to="/citylists">城市选择</Link>
           </li>
         </ul>
-        <Route path="/home" exact component={Home} />
+        <Route path="/home" component={Home} />
         <Route path="/citylists" component={CityLists} />
       </div>
     </Router>
